@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(222, 222, 247);
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.counter-text {
+  font-size: 5rem;
+}
+#number {
+  font-size: 7rem;
+  align-self: center;
+}
+.buttons {
+  display: flex;
+  width: 25%;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+.button {
+  background: rgb(142, 142, 192);
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid black;
+}
